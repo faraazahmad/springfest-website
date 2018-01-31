@@ -12,6 +12,7 @@ the checkbox correspondong to that task by adding a `x` inside the square bracke
 
 ## Tasks to complete
 - [ ] Add footer with proper content and design
+- [ ] Replace *We're back* with a proper subtitle and add a small description below
 - [ ] Add a slideshow with images of the previous year's SFJ.
 - [ ] Make a header showing the SFJ logo.
 - [ ] Add a navbar-menu to show when clicked on the hamburger menu on mobile
