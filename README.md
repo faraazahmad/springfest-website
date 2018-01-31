@@ -18,3 +18,22 @@ the checkbox correspondong to that task by adding a `x` inside the square bracke
 - [ ] Implement jump to top button with scroll animation
 - [ ] Add social media buttons for SFJ accounts
 - suggest more by opeining an issue
+
+## Testing the site locally on your machine
+The best way is to use the npm package browser-sync. When connected to the same wifi network,
+any device can open and test the webpage, so you can easily test it on your phone and laptop/pc
+simultaneously.
+### To use browser-sync
+make sure you have nodejs installed. Then installed the `browser-sync` package globally by using
+the command
+```
+$ npm install -g browser-sync
+```
+
+### To test your site
+`cd` into the directory and run the following command
+```
+$ browser-sync start --server --files "*/*"
+```
+You can then open the site on another device using the link given in the output of the above command.
+It will be something like this: `External: http://192.168.0.103:3000`
