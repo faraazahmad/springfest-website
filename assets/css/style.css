@@ -1,0 +1,86 @@
+* {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+body.black {
+	background-color: black;
+}
+
+body, html {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background: #151515 url('../img/1.png') fixed;
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		margin-top: 10vh;
+	}
+	100% {
+		opacity: 1;
+		margin-top: 0;
+	}
+}
+
+.navbar, .navbar * {
+	background-color: transparent;
+	color: white;
+	font-weight: 700
+}
+
+.navbar {
+	padding: 1em;
+}
+
+.red-text {
+	color: #FF4646;
+}
+
+.hero, .hero * {
+	color: white
+}
+.main-title {
+	font-weight: 100;
+}
+.main-title + .subtitle {
+	white-space: pre-line;
+}
+.titlesub {
+	font-weight: 700;
+	font-size: 2em;
+}
+@media screen and (min-width: 768px) {
+	.main-title {
+		letter-spacing: 1em;
+	}
+	#current-year {
+		font-size: 20em;
+	}
+	html {
+	animation: 0.75s ease-out 0s 1 fadeInUp;
+}
+}
+
+@media screen and (max-width: 765px) {
+	.main-title {
+		letter-spacing: 0.5em;
+	}
+	#current-year {
+		font-size: 10em;
+	}
+	html {
+	animation: 0.9s ease-out 0s 1 fadeInUp;
+}
+}
+
+#current-year {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: -0.75em;
+	padding: 0;
+	opacity: 0.05;
+}
