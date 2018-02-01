@@ -11,6 +11,7 @@ body, html {
 	height: 100%;
 	width: 100%;
 	background: #151515 url('../img/1.png') fixed;
+	-webkit-background-position: fixed;
 }
 
 @keyframes fadeInUp {
@@ -32,10 +33,11 @@ body, html {
 
 .navbar {
 	padding: 1em;
+	z-index: 999;
 }
 
-.red-text {
-	color: #FF4646;
+.has-red-text, .has-red-text *{
+	color: #e13a3a !important;
 }
 
 .hero, .hero * {
@@ -57,10 +59,17 @@ body, html {
 	}
 	#current-year {
 		font-size: 20em;
+		top: -0.75em;
+		left: 0;
+		right: 0;
 	}
 	html {
-	animation: 0.75s ease-out 0s 1 fadeInUp;
-}
+		animation: 0.75s ease-out 0s 1 fadeInUp;
+	}
+	.video-subtitle {
+		position: absolute;
+		top: -5em;
+	}
 }
 
 @media screen and (max-width: 765px) {
@@ -69,18 +78,42 @@ body, html {
 	}
 	#current-year {
 		font-size: 10em;
+		top: -10vw;
+		left: -10px;
 	}
 	html {
-	animation: 0.9s ease-out 0s 1 fadeInUp;
+		animation: 0.9s ease-out 0s 1 fadeInUp;
+	}
+	.video-subtitle {
+		margin-bottom: 3em;
+	}
 }
+
+.video-subtitle {
+	text-align: center;
+	width: 100%;
+	font-weight: 700;
+	animation: updown 2s infinite ease-out;
 }
 
 #current-year {
 	position: absolute;
 	width: 100%;
-	left: 0;
-	right: 0;
-	top: -0.75em;
 	padding: 0;
 	opacity: 0.05;
+}
+
+@keyframes updown {
+	0% {
+		transform: translateY(0px);
+		opacity: 0.2;
+	}
+	50% {
+		transform: translateY(20px);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 0.2;
+	}
 }

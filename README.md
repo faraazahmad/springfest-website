@@ -11,6 +11,7 @@ looks good on various screen sizes. Make it mobile first.*__ After completing a 
 the checkbox correspondong to that task by adding a `x` inside the square brackets in this file.
 
 ## Tasks to complete
+- [x] Add teaser video.
 - [ ] Add footer with proper content and design
 - [ ] Add a slideshow with images of the previous year's SFJ.
 - [ ] Make a header showing the SFJ logo.
