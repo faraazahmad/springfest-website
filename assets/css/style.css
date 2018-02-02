@@ -28,7 +28,8 @@ body, html {
 .navbar, .navbar * {
 	background-color: transparent;
 	color: white;
-	font-weight: 700
+	font-weight: 700;
+	font-size: 1.1em;
 }
 
 .navbar {
@@ -72,7 +73,7 @@ body, html {
 	}
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
 	.main-title {
 		letter-spacing: 0.5em;
 	}
@@ -86,6 +87,10 @@ body, html {
 	}
 	.video-subtitle {
 		margin-bottom: 3em;
+	}
+	.navbar-item:hover {
+		background-color: #e13a3a !important;
+		color: white
 	}
 }
 

@@ -18,7 +18,7 @@ the checkbox correspondong to that task by adding a `x` inside the square bracke
 - [ ] Make a header showing the SFJ logo.
 - [ ] Add a navbar-menu to show when clicked on the hamburger menu on mobile
 - [ ] Implement jump to top button with scroll animation
-- [ ] Add social media buttons for SFJ accounts
+- [x] Add social media buttons for SFJ accounts
 - suggest more by opeining an issue
 
 ## Testing the site locally on your machine
