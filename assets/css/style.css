@@ -3,7 +3,7 @@
 }
 
 
-body, html {
+html {
 	margin: 0;
 	height: 100%;
 	width: 100%;
@@ -11,15 +11,8 @@ body, html {
 	background: url('../img/1.png') fixed, linear-gradient(#eee, #fff) fixed;
 }
 
-@keyframes fadeInUp {
-	0% {
-		opacity: 0;
-		margin-top: 10vh;
-	}
-	100% {
-		opacity: 1;
-		margin-top: 0;
-	}
+.records {
+	padding: 3em;
 }
 
 .navbar, .navbar * {
@@ -62,9 +55,6 @@ body, html {
 		left: 0;
 		right: 0;
 	}
-	html {
-		animation: 0.75s ease-out 0s 1 fadeInUp;
-	}
 	.video-subtitle {
 		position: absolute;
 		top: -5em;
@@ -80,19 +70,28 @@ body, html {
 		top: -10vw;
 		left: -10px;
 	}
-	html {
-		animation: 0.9s ease-out 0s 1 fadeInUp;
-	}
 	.video-subtitle {
 		margin-bottom: 3em;
 	}
 	.navbar-item:hover {
 		background-color: transparent !important;
 	}
+	.social-icons {
+		margin-left: 9em;
+	}
+}
+
+.records h1 {
+	font-size: 3em;
+	animation: 25s colorChange ease-out infinite;
+}
+.records h2 {
+	font-weight: 700;
 }
 
 .fa-lg{
 	margin-right: 1em;
+	margin-left: 1em;
 	transition: transform 0.15s ease-out;
 }
 .fa-lg:hover {
@@ -164,9 +163,9 @@ body, html {
 #current-year {
 	position: absolute;
 	width: 100%;
-	font-weight: 700;
+	font-weight: 100;
 	padding: 0;
-	opacity: 0.3;
+	opacity: 0.35;
 	z-index: 0;
 	animation: colorChange 7s ease-out infinite;
 }

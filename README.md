@@ -16,7 +16,7 @@ the checkbox correspondong to that task by adding a `x` inside the square bracke
 - [ ] Replace *We're back* with a proper subtitle and add a small description below
 - [ ] Add a slideshow with images of the previous year's SFJ.
 - [ ] Make a header showing the SFJ logo.
-- [ ] Add a navbar-menu to show when clicked on the hamburger menu on mobile
+- [x] Add a navbar-menu to show when clicked on the hamburger menu on mobile
 - [ ] Implement jump to top button with scroll animation
 - [x] Add social media buttons for SFJ accounts
 - suggest more by opeining an issue
