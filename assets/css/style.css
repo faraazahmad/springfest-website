@@ -2,16 +2,13 @@
 	font-family: 'Rajdhani', sans-serif;
 }
 
-body.black {
-	background-color: black;
-}
 
 body, html {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	background: #151515 url('../img/1.png') fixed;
-	-webkit-background-position: fixed;
+	background: url('../img/1.png') fixed;
+	background: url('../img/1.png') fixed, linear-gradient(#eee, #fff) fixed;
 }
 
 @keyframes fadeInUp {
@@ -27,9 +24,12 @@ body, html {
 
 .navbar, .navbar * {
 	background-color: transparent;
-	color: white;
 	font-weight: 700;
 	font-size: 1.1em;
+}
+
+.navbar-item:hover {
+	background-color: transparent !important;
 }
 
 .navbar {
@@ -41,11 +41,9 @@ body, html {
 	color: #e13a3a !important;
 }
 
-.hero, .hero * {
-	color: white
-}
 .main-title {
-	font-weight: 100;
+	font-weight: 700;
+	z-index: 9999;
 }
 .main-title + .subtitle {
 	white-space: pre-line;
@@ -60,7 +58,7 @@ body, html {
 	}
 	#current-year {
 		font-size: 20em;
-		top: -0.75em;
+		top: -0.68em;
 		left: 0;
 		right: 0;
 	}
@@ -89,9 +87,71 @@ body, html {
 		margin-bottom: 3em;
 	}
 	.navbar-item:hover {
-		background-color: #e13a3a !important;
-		color: white
+		background-color: transparent !important;
 	}
+}
+
+.fa-lg{
+	margin-right: 1em;
+	transition: transform 0.15s ease-out;
+}
+.fa-lg:hover {
+	transform: scale(1.1);
+}
+.fa-lg * {
+	transition: color 0.1s ease-out;
+}
+
+.fa-facebook {
+	color: black;
+}
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-twitter {
+	color: black;
+}
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-instagram {
+	color: black;
+}
+.fa-instagram:hover {
+	animation: 4s instaHover ease-out infinite;
+}
+
+@keyframes instaHover {
+	0% {
+		color: #8a3ab9;
+	}
+	14% {
+		color: #4c68d7;
+	}
+	28% {
+		color: #cd486b;
+	}
+	42% {
+		color: #fbad50;
+	}
+	66% {
+		color: #bc2a8d;
+	}
+	80% {
+		color: #e95950;
+	}
+	100% {
+		color: #8a3ab9;
+	}
+}
+
+.fa-github {
+	color: black;
+}
+.fa-github:hover {
+	color: back;
 }
 
 .video-subtitle {
@@ -104,8 +164,40 @@ body, html {
 #current-year {
 	position: absolute;
 	width: 100%;
+	font-weight: 700;
 	padding: 0;
-	opacity: 0.05;
+	opacity: 0.3;
+	z-index: 0;
+	animation: colorChange 7s ease-out infinite;
+}
+
+.footer {
+	margin-top: 2em;
+	background-color: #EA2A3F;
+	color: #fff;
+	font-weight: 400;
+}
+
+@keyframes colorChange {
+	0% {
+		color: #EA2A3F;
+	}
+
+	25% {
+		color: #ffc100;
+	}
+
+	50% {
+		color: #42b345;
+	}
+
+	75% {
+		color: #0000ff;
+	}
+	100% {
+		color: #EA2A3F;
+	}
+
 }
 
 @keyframes updown {
