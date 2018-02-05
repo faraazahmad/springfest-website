@@ -115,37 +115,6 @@ html {
 	color: #00aced;
 }
 
-.fa-instagram {
-	color: black;
-}
-.fa-instagram:hover {
-	animation: 4s instaHover ease-out infinite;
-}
-
-@keyframes instaHover {
-	0% {
-		color: #8a3ab9;
-	}
-	14% {
-		color: #4c68d7;
-	}
-	28% {
-		color: #cd486b;
-	}
-	42% {
-		color: #fbad50;
-	}
-	66% {
-		color: #bc2a8d;
-	}
-	80% {
-		color: #e95950;
-	}
-	100% {
-		color: #8a3ab9;
-	}
-}
-
 .fa-github {
 	color: black;
 }
@@ -168,13 +137,6 @@ html {
 	opacity: 0.35;
 	z-index: 0;
 	animation: colorChange 7s ease-out infinite;
-}
-
-.footer {
-	margin-top: 2em;
-	background-color: #EA2A3F;
-	color: #fff;
-	font-weight: 400;
 }
 
 @keyframes colorChange {
@@ -212,4 +174,47 @@ html {
 		transform: translateY(0px);
 		opacity: 0.2;
 	}
+}
+
+.footer {
+	margin-top: 2em;
+	background-color: lightgray;
+	font-weight: 400;
+	color: #EA2A3F;
+	padding-top: 10px;
+	padding-bottom: 10px ;
+}
+
+.footer-container{
+	margin-top: 0;
+}
+
+.footer-list{
+	text-align: center;
+}
+
+.footer-list-item{
+	display: inline-block;
+	margin-right: 30px;
+	margin-left:30px;
+	font-size: 30px;
+}
+
+.footer-list-item:hover{
+	font-weight: bold;
+	color: blue;
+}
+
+.icon{
+	height: 20px;
+	width: 20px;
+}
+
+.developer-credit{
+	color: black;
+}
+
+hr{
+	display: block;
+	background-color: #EA2A3F;
 }
