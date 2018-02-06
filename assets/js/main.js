@@ -7,7 +7,8 @@ var flkty = new Flickity(elem, {
 	percentPosition: false, 
 	autoPlay: true,
 	wrapAround: true,
-	freeScroll: true
+	freeScroll: true,
+  lazyLoad: true
 })
 
 // navbar burger
