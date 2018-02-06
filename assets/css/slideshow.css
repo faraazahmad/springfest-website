@@ -1,0 +1,9 @@
+.records {
+	animation: slideShow 10s ease-out infinite;
+}
+
+@keyframes  slideShow {
+	0% {
+		background-image: url('../img/sfj17/');
+	}
+}

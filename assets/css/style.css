@@ -59,6 +59,9 @@ html {
 		position: absolute;
 		top: -5em;
 	}
+	.fa-lg {
+		margin-right: 2em;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -79,6 +82,10 @@ html {
 	.social-icons {
 		margin-left: 9em;
 	}
+	.fa-lg {
+		margin-right: 1em;
+		margin-left: 1em;
+	}
 }
 
 .records h1 {
@@ -90,8 +97,7 @@ html {
 }
 
 .fa-lg{
-	margin-right: 1em;
-	margin-left: 1em;
+
 	transition: transform 0.15s ease-out;
 }
 .fa-lg:hover {
