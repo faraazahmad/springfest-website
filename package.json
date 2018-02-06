@@ -1,0 +1,23 @@
+{
+  "name": "springfest-website",
+  "version": "1.0.0",
+  "description": "The website for Spring Fest Jamia (2018). This is intended to be a single page site with all the contents and features neatly arranged so as to generate interest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files \"*/*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faraazahmad/springfest-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faraazahmad/springfest-website/issues"
+  },
+  "homepage": "https://github.com/faraazahmad/springfest-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
