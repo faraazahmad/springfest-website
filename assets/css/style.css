@@ -14,6 +14,7 @@ html {
 
 html, body {
 	color: white;
+	padding-top: 2vw;
 }
 
 .records {
@@ -228,4 +229,13 @@ html, body {
 hr{
 	display: block;
 	background-color: #EA2A3F;
+}
+
+.is-child {
+	transition: transform ease-out 0.15s;
+	text-align: center;
+}
+
+.is-child:hover {
+	transform: scale(1.05);
 }
