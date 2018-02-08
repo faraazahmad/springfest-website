@@ -157,11 +157,11 @@ html, body {
 
 @keyframes colorChange {
 	0% {
-		color: #EA2A3F;
+		color: #ffc100;
 	}
 
 	25% {
-		color: #ffc100;
+		color: #EA2A3F;
 	}
 
 	50% {
@@ -172,7 +172,7 @@ html, body {
 		color: #0000ff;
 	}
 	100% {
-		color: #EA2A3F;
+		color: #ffc100;
 	}
 
 }
@@ -235,7 +235,7 @@ hr{
 	text-align: center;
 }
 
-.is-child:hover {
+.events .is-child:hover {
 	transform: scale(1.05);
 }
 
@@ -250,8 +250,19 @@ hr{
 .register a {
 	color: white;
 	text-decoration: none;
-	padding: 1em;
+	padding: 0.75em;
 	font-weight: 700;
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 0 0 5px 5px;
+}
+
+.is-circle {
+	border-radius: 50em;
+}
+
+.avatar {
+	height: 10em;
+	width: 10em;
+	overflow: hidden;
+	display: inline-block;
 }
