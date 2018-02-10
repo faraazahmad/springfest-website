@@ -11,13 +11,14 @@ looks good on various screen sizes. Make it mobile first.*__ After completing a 
 the checkbox correspondong to that task by adding a `x` inside the square brackets in this file.
 
 ## Tasks to complete
+- [ ] Add events cards with background images
+- [ ] Add previos sponsors
+- [ ] Add an event timeline for each day of the fest
 - [x] Add teaser video.
-- [ ] Add footer with proper content and design
-- [ ] Replace *We're back* with a proper subtitle and add a small description below
-- [ ] Add a slideshow with images of the previous year's SFJ.
-- [ ] Make a header showing the SFJ logo.
+- [x] Add footer with proper content and design
+- [x] Replace *We're back* with a proper subtitle and add a small description below
+- [x] Add a slideshow with images of the previous year's SFJ.
 - [x] Add a navbar-menu to show when clicked on the hamburger menu on mobile
-- [ ] Implement jump to top button with scroll animation
 - [x] Add social media buttons for SFJ accounts
 - suggest more by opeining an issue
 
