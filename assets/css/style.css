@@ -266,3 +266,54 @@ hr{
 	overflow: hidden;
 	display: inline-block;
 }
+
+.event-box{
+	height: 350px;
+	width: 400px;
+	display: inline-block;
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-bottom: 22px;
+	border-radius: 10px;
+}
+
+.event-box-image{
+	align-items: center;
+	height: 280px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.event-box-heading {
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.event {
+	animation: colorChange 5s ease-out infinite;
+	text-align: center;
+}
+
+@keyframes colorChange {
+	0% {
+		color: #ffc100;
+	}
+
+	25% {
+		color: #EA2A3F;
+	}
+
+	50% {
+		color: #42b345;
+	}
+
+	75% {
+		color: #0000ff;
+	}
+	100% {
+		color: #ffc100;
+	}
+
+}
+
