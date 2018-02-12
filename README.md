@@ -14,6 +14,7 @@ the checkbox correspondong to that task by adding a `x` inside the square bracke
 - [ ] Add events cards with background images
 - [ ] Add previos sponsors
 - [ ] Add an event timeline for each day of the fest
+- [ ] Make a seperate page for contacts, team and map
 - [x] Add teaser video.
 - [x] Add footer with proper content and design
 - [x] Replace *We're back* with a proper subtitle and add a small description below
