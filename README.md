@@ -11,9 +11,9 @@ looks good on various screen sizes. Make it mobile first.*__ After completing a 
 the checkbox correspondong to that task by adding a `x` inside the square brackets in this file.
 
 ## Tasks to complete
-- [ ] Add previos sponsors
 - [ ] Add an event timeline for each day of the fest
 - [ ] Make a seperate page for contacts, team and area map
+- [x] Add previos sponsors
 - [x] Add events cards with background images
 - [x] Add teaser video.
 - [x] Add footer with proper content and design
