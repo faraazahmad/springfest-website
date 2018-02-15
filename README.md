@@ -13,7 +13,7 @@ the checkbox correspondong to that task by adding a `x` inside the square bracke
 ## Tasks to complete
 - [ ] Add an event timeline for each day of the fest
 - [ ] Make a seperate page for contacts, team and area map
-- [x] Add previos sponsors
+- [x] Add previous sponsors
 - [x] Add events cards with background images
 - [x] Add teaser video.
 - [x] Add footer with proper content and design
