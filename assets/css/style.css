@@ -194,7 +194,6 @@ html, body {
 }
 
 .footer {
-	margin-top: 2em;
 	font-weight: 400;
 	background-color: rgba(58, 40, 82, 0.8);
 	padding-top: 10px;
@@ -306,4 +305,11 @@ hr{
 	}
 
 }
-
+#sponsors {
+	background-color: #fff;
+	padding: 3em 0;
+}
+#sponsors .section-title p {
+	color: #EF3849;
+	font-weight: 700;
+}
