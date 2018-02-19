@@ -14,29 +14,15 @@ html {
 
 html, body {
 	color: white;
-	padding-top: 2vw;
-}
-
-
-.navbar, .navbar * {
-	background-color: transparent;
-	font-weight: 700;
-	font-size: 1.1em;
-}
-
-.navbar-item:hover {
-	background-color: transparent !important;
-}
-
-.navbar {
-	padding: 1em;
-	z-index: 999;
 }
 
 .has-accent-text{
 	color: #FFC100;
 }
 
+#landing {
+	padding-top: 2vw;
+}
 .main-title {
 	font-weight: 700;
 	z-index: 9999;
@@ -66,6 +52,9 @@ html, body {
 	.fa-lg {
 		margin-right: 2em;
 	}
+	#desktop-break {
+		margin-top: 6em;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -79,9 +68,6 @@ html, body {
 	}
 	.video-subtitle {
 		margin-bottom: 3em;
-	}
-	.navbar-item:hover {
-		background-color: transparent !important;
 	}
 	.social-icons {
 		margin-left: 9em;
@@ -175,7 +161,6 @@ html, body {
 	100% {
 		color: #ffc100;
 	}
-
 }
 
 @keyframes updown {
@@ -303,13 +288,34 @@ hr{
 	100% {
 		color: #ffc100;
 	}
-
 }
-#sponsors {
+
+.navbar {
+	background-color: transparent;
+	z-index: 9999;
+	padding: 1em;
+}
+
+.navbar * {
+	color: white;
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.navbar-item:hover {
+	background-color: transparent !important;
+}
+
+#sponsors, #team {
 	background-color: #fff;
 	padding: 3em 0;
 }
-#sponsors .section-title p {
+
+#team * {
+	color: black;
+}
+
+#sponsors .section-title p, #team .section-title p {
 	color: #EF3849;
 	font-weight: 700;
 }
