@@ -242,6 +242,19 @@ hr{
 	opacity: 1;
 }
 
+#events .description{
+	opacity: 1 !important;
+}
+
+#events, #events * {
+	background-color: #EF3849 !important;
+	text-shadow: none;
+}
+
+#events .content {
+	background-color: transparent;
+}
+
 .register {
 	width: 100%;
 	text-align: center;
