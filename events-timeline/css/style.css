@@ -53,6 +53,25 @@ Modules - reusable parts of our design
   display: table;
   clear: both;
 }
+.navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  font-weight: bold;
+  background-color: transparent;
+}
+.navbar * {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.navbar-item:hover {
+  background-color: transparent !important;
+}
 
 /* -------------------------------- 
 
